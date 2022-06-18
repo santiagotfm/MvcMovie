@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Kanit:wght@500&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+    color: white !important;
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    color: white !important;
+ 
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #4C5760 !important;
+    color: white !important;
+}
+
+h1, h2, h3, h4, h5, input, btn, select, a {
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar {
+    background-color: #5EB1BF !important;
+    height: 88px !important;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.navbar-brand {
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-size: 2.2rem;
+    font-family: 'Gravitas One', cursive;
+}
+
+.nav-link {
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+    font-size: 30px !important;
+}
+
+.table {
+    color: white !important;
+}
+input, select {
+    background-color: #5EB1BF !important;
+}
+
+.btn-success {
+    background-color: #9EE493 !important;
+    color: black;
+}
+
+a {
+    color:white;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #5EB1BF !important;
+}
